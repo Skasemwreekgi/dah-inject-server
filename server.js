@@ -7,7 +7,10 @@ app.use(express.json());
 // Τα credentials σου (μπορείς να τα αλλάξεις)
 const users = {
     "user1": { password: "pass123", allowed: true },
-    "user2": { password: "pass456", allowed: true }
+    "user2": { password: "pass456", allowed: true },
+    "user3": { password: "newpass789", allowed: true },
+    "user4": { password: "secure456", allowed: true },
+    "user5": { password: "mypassword", allowed: true }
 };
 
 // Endpoint για έλεγχο login
